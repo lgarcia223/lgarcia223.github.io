@@ -1,3 +1,7 @@
-div{
-    /* border-style: solid; */
+body{
+background: url(../assets/img/flowers.jpg) white no-repeat;
+background-size: cover;
 }
+div{
+     /* border-style: inset; */
+    }

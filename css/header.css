@@ -1,9 +1,15 @@
 .jumbotron{
     background: transparent;
-    margin-left: 50%;
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    padding-top: 15px;
     }   
 
 h1 {
-    color: red;
+    color: rgb(10, 37, 10);
     font-family: 'Lobster Two', cursive;
+    float: right;
     }
+p{
+    float:right;
+}

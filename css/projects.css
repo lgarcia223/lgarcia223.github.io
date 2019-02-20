@@ -1,9 +1,9 @@
-#projects{
-    display: inline-block;
+p{
+    color: rgb(10, 37, 10);
+    font-family: 'Lobster Two', cursive;
+    font-size: 1em;
+    margin: 0 0 0 0;
 }
-
-h2{
-}
-
-#listItem {
+#cardbody{
+    background: white;
 }

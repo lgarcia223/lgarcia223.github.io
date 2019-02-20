@@ -1,5 +1,12 @@
-.form-group {
-width: 30%;
-height: 100px;
-float: center;
+#contact{
+    width: 30rem;
+    height: 30rem;
+}
+#submit{
+    margin: 2 0 0 0;
+    background: lightgrey;
+    height: 3rem;
+}
+#messagebox{
+    margin: 0 0 0 2;
 }

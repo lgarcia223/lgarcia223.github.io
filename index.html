@@ -38,109 +38,131 @@
       <div class="jumbotron">
           <div class="container">
             <h1 class="display-4">Laura E. Garcia</h1>
+            <br>
+            <br>
+            <hr>
             <p class="lead">This is a starter portfolio.</p>
           </div>
         </div>
+<br>
+<br>
+<br>
 <!-- About section -->
-      <div class ="container" id="about">
-          <div class="media">
-              <div class="media-body">
-                <h5 class="mt-0 mb-1">About Me</h5>
-                In this section, I plan to write some general information about me and my professional experience.  I also plan to change the image to a picture of me.
-              </div>
-              <img src="./assets/img/poppy.JPG" class="ml-3" alt="...">
-            </div>
-      </div>
+<div class="row">
+     <div class="col"></div>
+     <div class="col">
+        <div class="container-fluid" id="about">
+                <div class="media">
+                    <img src="./assets/img/poppy.JPG" class="align-self-center mr-3" id="me-pic" alt="poppy">
+                    <div class="media-body">
+                        <h5 class="mt-0">About Me</h5>
+                        <p class="text-wrap"></p>Here is where I plan to tell a little about myself and my professional experience.
+                        And maybe change the picture to my headshot.</p>
+                    </div>
+                </div>
+        </div>
+    </div>
+</div>
+ <br>
+ <br>
 <!-- Projects section -->
-    <div class="container" >
-        <div class="card" style="width: 18rem;"id="projects" class="row" class="col-sm">
-            <img src="./assets/img/poppy.JPG" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Project 1</h5>
-                    <p class="card-text">Coming Soon!</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
-        </div>
-        <div class="card" style="width: 18rem;" id="projects" class="row" class="col-sm">
-                <img src="./assets/img/poppy.JPG" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Project 2</h5>
-                    <p class="card-text">Coming Soon!</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
-        </div>
-        <div class="card" style="width: 18rem;" id="projects" class="row" class="col-sm">
-            <img src="./assets/img/poppy.JPG" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Project 3</h5>
-                    <p class="card-text">Coming Soon!</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
-        </div>
-    </div>
-    <div class="container" >
-        <div class="card" style="width: 18rem;"id="projects" class="row" class="col-sm">
-                <img src="./assets/img/poppy.JPG" class="card-img-top" alt="...">
-            <div class="card-body">
-                    <h5 class="card-title">Project 4</h5>
-                    <p class="card-text">Coming Soon!</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-        </div>
-        <div class="card" style="width: 18rem;"id="projects" class="row" class="col-sm">
-                <img src="./assets/img/poppy.JPG" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Project 5</h5>
-                    <p class="card-text">Coming Soon!</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-                 </div>
-        </div>
-        <div class="card" style="width: 18rem;"id="projects" class="row" class="col-sm">
-            <img src="./assets/img/poppy.JPG" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Project 6</h5>
-                <p class="card-text">Coming Soon!</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-      </div>
-    </div>
-<!-- Contacts section -->
-        <form action="https://formspree.io/lgarcia223@gmail.com" method="POST">
-            <div class="control-group">
-                <div class="form-group">
-                    <label>Name</label>
-                    <input type="text" class="form-control" placeholder="Your Name" id="name" required
-                        data-validation-required-message="Please enter your name" name="name">
-                    <p class="help-block text-danger"></p>
-                </div>
-            </div>
-            <div class="control-group">
-                <div class="form-group">
-                    <label>Email Address</label>
-                    <input type="email" class="form-control" placeholder="Your Email" id="email" required
-                        data-validation-required-message="Please enter your email" name="_replyto">
-                    <p class="help-block text-danger"></p>
-                </div>
-            </div>
-            <div class="control-group">
-                <div class="form-group">
-                    <textarea class="form-control" rows="7" placeholder="Your Message" id="message" required
-                        data-validation-required-message="Please leave a message" name="message"></textarea>
-                    <p class="help-block text-danger"></p>
-                </div>
-            </div>
-            <div class="text-center">
-                <div id="success"></div>
-                <button type="submit" class="btn btn-lg btn-black">
-                    <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
-                    Send Message
-                </button>
-            </div>
-        </form>
-    </div>
-<!-- Footer -->
-        <p>Footer Here</p>
+<div class="container-fluid" id="projectsRowOne">
+    <div class="row">
+        <div class="col"></div>   
+        <div class="col"></div>   
+        <div class="col"></div>   
 
+        <div  class="col-sm" style="width: 8rem; height: 14.5rem;"class="card" >
+            <img src="./assets/img/poppy.JPG" class="card-img-top" alt="...">
+            <div class="card-body" id="cardbody">
+                <p class="card-title">Project 1 </p><p>Coming Soon</p>
+                <a href="#" class="btn btn-black" id="button">Check it out!</a>
+            </div>
+        </div>
+        <div  class="col-sm" style="width: 8rem; height: 14.5rem;"class="card" >
+                <img src="./assets/img/poppy.JPG" class="card-img-top" alt="...">
+                <div class="card-body" id="cardbody">
+                        <p class="card-title">Project 2 </p><p>Coming Soon</p>
+                        <a href="#" class="btn btn-black">Check it out!</a>
+            </div>
+        </div>
+        <div  class="col-sm" style="width: 8rem; height: 14.5rem;"class="card" >
+                <img src="./assets/img/poppy.JPG" class="card-img-top" alt="...">
+                <div class="card-body" id="cardbody">
+                        <p class="card-title">Project 3 </p><p>Coming Soon</p>
+                        <a href="#" class="btn btn-black">Check it out!</a>
+            </div>
+        </div>
+        <div  class="col-sm" style="width: 8rem; height: 14.5rem;"class="card" >
+                <img src="./assets/img/poppy.JPG" class="card-img-top" alt="...">
+                <div class="card-body" id="cardbody">
+                        <p class="card-title">Project 4 </p><p>Coming Soon</p>
+                        <a href="#" class="btn btn-black" id="button">Check it out!</a>
+                </div>
+            </div>
+            <div  class="col-sm" style="width: 8rem; height: 14.5rem;"class="card" >
+                    <img src="./assets/img/poppy.JPG" class="card-img-top" alt="...">
+                    <div class="card-body" id="cardbody">
+                            <p class="card-title">Project 5 </p><p>Coming Soon</p>
+                            <a href="#" class="btn btn-black">Check it out!</a>
+            </div>
+        </div>
+        <div  class="col-sm" style="width: 8rem; height: 14.5rem;"class="card" >
+                <img src="./assets/img/poppy.JPG" class="card-img-top" alt="...">
+                <div class="card-body" id="cardbody">
+                        <p class="card-title">Project 6 </p><p>Coming Soon</p>
+                        <a href="#" class="btn btn-black">Check it out!</a>
+            </div>
+        </div>
+    </div>
+</div>
+<br>
+<br>
+<br>
+<br>
+<!-- Contact -->
+ <div class="container">
+    <div class="row">
+            <div class= "container" id="contact">
+                <div class="form" style="width: 32rem; height: 14.5rem;"class="col-lg">
+                    <form action="https://formspree.io/lgarcia223@gmail.com" method="POST">
+                        <div class="control-group">
+                            <div class="form-group">
+                                <label><h5>Contact Me!</h5></label>
+                                <input type="text" class="form-control" placeholder="Your Name" id="name" required
+                                    data-validation-required-message="Please enter your name" name="name">
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="control-group">
+                            <div class="form-group">
+                                <input type="email" class="form-control" placeholder="Your Email" id="email" required
+                                    data-validation-required-message="Please enter your email" name="_replyto">
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="control-group">
+                            <div class="form-group" id="messagebox">
+                                <textarea class="form-control" rows="3" placeholder="Your Message" id="message" required
+                                    data-validation-required-message="Please leave a message" name="message"></textarea>
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="text-center">
+                            <div id="success"></div>
+                            <button type="submit" class="btn btn-lg btn-black" id="submit">
+                                <i class="fa fa-paper-plane-o" aria-hidden="true"><h5>Send Message</h5></i>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+    </div>
+ </div>
+<!-- Footer -->
+<div id="footer">
+        <p>Website Created by Laura Garcia</p>
+</div>
 <!--Scripts-->
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
             integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"

@@ -1,7 +1,11 @@
-body{
-    background: url(../assets/img/flowers.jpg) white;
-    background-size: 100%;
-}
 #about{
-    margin-left: 50%
+    margin-bottom: 10px;
+}
+h5{
+    color: rgb(10, 37, 10);
+    font-family: 'Lobster Two', cursive;
+}
+#me-pic{
+    height: 6em;
+    width: 6em;
 }
